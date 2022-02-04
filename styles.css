@@ -1,0 +1,910 @@
+/* Fonts */
+
+@font-face {
+ font-family: ashish;
+ src: url('../fonts/Montserrat-Black.ttf');
+}
+@font-face {
+  font-family: ashu;
+  src: url('../fonts/Montserrat-Light.ttf');
+}
+@font-face {
+ font-family: gun;
+ src: url('../fonts/Montserrat-Bold.tff');
+}
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap')
+
+/* Fonts end */
+.contact-no:hover
+{
+  color: #ff9b05;
+  text-decoration: underline #ff9b05;
+  text-decoration-style: solid;
+  text-underline-offset: 5px;
+  text-decoration-thickness: 3px;
+}
+html
+{
+  scroll-behavior: smooth;
+}
+.loading
+{
+  background-color: white;
+  height: 100vh;
+  width: 100vw;
+  background-image: url(images/WiFi\ Searching\ Interaction\ Search\ by\ Muzli.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+body
+{
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1
+{
+
+  padding-bottom: .5rem;
+  color: inherit;
+  font-family: 'Montserrat', sans-serif;
+}
+
+i{
+  padding-right: 15px;
+  color: #fa8807;
+}
+
+
+
+.hathway-logo
+{
+  width: 120px;
+
+}
+
+.header-info
+{
+  text-align: center;
+  padding-top: 3rem;
+  font-size: 2.5rem;
+  width: 70%;
+margin-right: auto;
+margin-left: auto;
+line-height: 3rem;
+}
+.info
+{
+  
+  width: 50%;
+  justify-content: space-evenly;
+  display: flex;
+padding: 2% 0% 0% 0%;
+margin-right: auto;
+margin-left: auto;
+flex-wrap: wrap;
+}
+.button-info
+{
+  font-family: inherit;
+margin-top: 5%;
+}
+.button-info a
+{
+  text-decoration: none;
+  color: white;
+}
+.info-button
+{
+  display: flex;
+justify-content: center;
+}
+.contact-no
+{
+  color: white;
+}
+/* navbar */
+
+.nav-ul
+{
+  margin-left: auto;
+}
+
+.navbar-brand
+{
+  font-size: 2.5rem;
+  padding-left: 2.2rem;
+}
+
+.navbar
+{
+    padding-left:0.5rem;
+}
+.navbar-nav
+{
+    padding-right:0.5rem;
+    text-align: center;
+}
+.navbar-brand
+{
+ font-size: 2.5rem;
+  font-family: 'Ubuntu', sans-serif;
+  color: #fff;
+}
+#Products
+{
+
+height: 450px;
+margin-right: auto;
+margin-left: auto;
+padding: 5%;
+}
+.product-image
+{
+  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/csimage.jpg) ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  width: 100vw;
+  height: 100vh;
+}
+.First-slide
+{
+  height: 100%;
+  margin-right: 50%;
+  margin-left: 50%;
+  transform: translate(-50%);
+}
+.first-slide
+{
+  width: 60%;
+background: #84707073;
+box-shadow: 0px 0px 40px 1px;
+}
+.Second-slide
+{
+  width: 30%;
+background: #84707073;
+box-shadow: 0px 0px 40px 1px;
+}
+
+.first{
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  z-index: 100;
+}
+.second
+{
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  z-index: 100;
+  transform: translate(-50%);
+  top: 240%;
+  background: white;
+  width: 100vw;
+  padding: 5%;
+  margin-left: 50%;
+  background: #84707073;
+}
+.exit
+{
+  background: transparent;
+font-size: 2rem;
+color: red;
+padding: 0px 0px 0px 10px;
+}
+.close
+{
+  display: none;
+}
+.carousel
+{
+  height: 100%;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  box-shadow: 0px 0px 20px 0.5px;
+}
+.carousel-inner
+{
+  height: 100%;
+}
+.carousel-item{
+  height: 100%;
+  text-align: center;
+  padding: 0%;
+}
+.second-slide
+{
+height: 100%;
+margin-right: 50%;
+margin-left: 50%;
+transform: translate(-50%);
+padding: 30px;
+}
+.third-slide
+{
+  height: 100%;
+  margin-right: 50%;
+  margin-left: 50%;
+  transform: translate(-50%);
+  padding: 30px;
+}
+
+.carousel-control-prev,
+.carousel-control-next
+{
+  background: #b9b5af;
+}
+.heading-products
+{
+  text-align: center;
+  padding: 5% 3% 0% 3%;
+  font-size: 2.5rem;
+  font-weight: 300;
+  font-family: ashu;
+}
+
+.carousel
+{
+  box-shadow: 0px 0px 10px 0.5px;
+}
+.submit-form
+{
+  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/csimage.jpg) ;
+  position: relative;
+  z-index: 0;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+  height: 50vh;
+text-align: center;
+overflow: hidden;
+}
+#email
+{
+  width: 20%;
+  height: 50px;
+  background: #d9d4d4;
+  color: #7d7a7a;
+  opacity: 1;
+}
+.submit-paragraph
+{
+  padding-top: 5rem;
+font-size: 1.5rem;
+color: white;
+padding-bottom: 15px;
+
+}
+.input-form
+{
+  display: flex;
+  justify-content: center;
+}
+.story
+{
+  width: 250px;
+margin: 2% 1% 2% 2%;
+border-radius: 20px;
+}
+.our-story
+{
+  display: flex;
+justify-content: space-evenly;
+align-content: center;
+width: 80%;
+margin-left: auto;
+margin-right: auto;
+margin-top: 2rem;
+margin-bottom: 3rem;
+box-shadow: 0px 0px 10px 0.5px;
+padding: 1%;
+border-radius: 30px;
+flex-wrap: wrap;
+
+}
+.offers
+{
+  font-size: 1.2rem;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+width: 70%;
+}
+.call
+{
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #1a1919;
+}
+button
+{
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ font-size: 1.2rem;
+}
+.btn
+{
+  font-size: 1.2rem;
+}
+.copywrite
+{
+  padding-top: 1rem;
+}
+.heading-paragraph
+{
+  width: 60%;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+padding-top: 1rem;
+font-family: ashu;
+}
+
+
+.our-story:hover
+{
+  box-shadow: 0px 0px 20px 1px;
+}
+.carousel:hover
+{
+  box-shadow: 0px 0px 20px 1px;
+}
+.Cards
+{
+  margin: 3%;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px 0.5px;
+}
+
+.Cards:hover
+{
+  box-shadow: 0px 0px 10px 1px;
+}
+.row
+{
+  justify-content: space-evenly;
+}
+.card{
+  
+  border-radius: 10px;
+}
+.filler
+{
+  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/csimage.jpg) ;
+  position: relative;
+  z-index: 0;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+  height: 20vh;
+text-align: center;
+}
+
+
+
+
+
+
+.navbar
+{
+  padding-bottom: 4.5rem;
+}
+
+.Nav-link
+{
+  display: block;
+text-decoration: none;
+color: white;
+transition: color 0.3s;
+font-family: ashu;
+cursor: pointer;
+margin-left: auto;
+font-size: 1.1rem;
+padding: .5rem 1rem;
+font-family: 'Dongle', sans-serif;
+}
+.Nav-link:hover
+{
+  color: #ff9b05;
+  text-decoration: none;
+  text-decoration: underline #ff9b05;
+  text-decoration-style: solid;
+  text-underline-offset: 5px;
+  text-decoration-thickness: 3px;
+  
+}
+
+.nav-Div
+{
+  padding: 2% 5% 5% 5%;
+  margin-right: auto;
+margin-left: auto;
+width: 100%;
+}
+
+/* navbar end */
+
+/* Download button */
+
+.Download-button
+{
+  margin: 3% 5% 3% 0;
+}
+
+.Download-button2
+{
+  margin: 2% 2% 2% 0;
+}
+
+/* Download button end */
+
+/* Title */
+
+
+.title
+{
+  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/csimage.jpg) ;
+
+ background-repeat: no-repeat;
+ background-size: cover;
+ color: white;
+ width: 100vw;
+ height: 100vh;
+ overflow: hidden;
+}
+
+
+
+
+
+.Title-header
+{
+  margin-top: 0;
+margin-bottom: .5rem;
+font-weight: 500;
+line-height: 1.5;
+font-size: 3rem;
+}
+
+.Title-Div1-image
+{
+ width: 62%;
+ transform: rotate(25deg);
+ position: absolute;
+ right: 25%;
+}
+
+
+/* Title End */
+
+/* features */
+
+.Features-heading
+{
+  margin-top: 0;
+margin-bottom: .5rem;
+font-weight: 500;
+line-height: 1.2;
+font-family: 'Montserrat', sans-serif;
+font-size: 1.7rem;
+}
+
+.Features-div
+{
+  text-align: center;
+}
+
+.paragraph
+{
+  padding: 0 10%;
+  color: #8f8f8f;
+}
+
+.Features
+{
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+
+/* features end */
+
+
+/* testimonials */
+
+.testimonials-content
+{
+  padding-top: 1rem;
+  font-weight: bold;
+}
+
+.testimonials-Dog-image
+{
+  border-radius: 100%;
+width: 30%;
+}
+
+.testimonials-lady-image
+{
+  border-radius: 100%;
+width: 30%;
+}
+
+.Testimonials
+{
+  text-align: center;
+  background-color: #ff4260;
+}
+
+
+.testimonials-header
+{
+  margin-top: 0;
+margin-bottom: .5rem;
+font-weight: 500;
+line-height: 1.5;
+color: #fff;
+font-family: 'Montserrat', sans-serif;
+font-size: 3rem;
+}
+
+
+
+/* testimonials end */
+
+/* press  */
+
+.press-images
+{
+  width: 15%;
+  padding: 2rem 1rem;
+}
+
+.Press
+{
+  background-color: #ff4260;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+/* press end */
+
+/* Pricing */
+
+.pricing-header
+{
+  font-family: ashu;
+  font-size: 2.5rem;
+  padding-bottom: 0.5rem;
+  font-weight: 300;
+  padding-top: 1rem;
+}
+.pricing-paragraph
+{
+  font-family: ashu;
+}
+
+.row
+{
+  padding: 50px;
+}
+
+.pricing-content
+{
+  font-family: ashish;
+  color: #ae3232;
+}
+.call-button
+{
+  text-decoration: none;
+  color: black;
+}
+.Call-button
+{
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+.call-btn
+{
+  border-radius: 10px;
+}
+
+.pricing-paragraph-1
+{
+  font-family: ashu;
+  font-size: 1.5rem;
+}
+
+.pricing{
+  padding: 2% 5% 0.2% 5%;
+  text-align: center;
+}
+
+/* Pricing end */
+
+
+/* cta */
+
+.Cta
+{
+  text-align: center;
+   background-color: #ff4c68;
+   padding-bottom: 3%;
+}
+
+.Cta-paragraph
+{
+ font-weight: 500;
+ line-height: 1.5;
+ color: #fff;
+ font-family: ashish ;
+ font-size: 2.5rem;
+ padding-top: 3%;
+ margin: 0 auto .5rem auto;
+}
+
+/* cta End */
+
+/* footer */
+.ICONS
+{
+  padding-left: 13px;
+  color: rgb(90, 90, 218);
+}
+.icon
+{
+  padding: 3%;
+  color: #ef8172;
+  transition: color 0.3s;
+}
+.icon:hover
+{
+  color: #ff022c;
+}
+
+.icons
+{
+  padding-bottom: 1%;
+  padding-top: 1%;
+}
+.ICONS:hover
+{
+  color: #ff6c43;
+  transition: color 0.3s;
+}
+
+.footer
+{
+  text-align: center;
+  font-family: ashu;
+  padding-top: 2%;
+  display: inline-block;
+margin-left: 50%;
+transform: translate(-50%);
+}
+/* web mantra */
+/* .logo
+{
+    width: 250px;
+    padding: 3% 0% 3% 3%;
+}
+.about
+{
+    width: 60%;
+    padding: 6% 3% 3% 0%;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    line-height: 35px;
+}
+.glass-background
+{
+    width: 750px;
+    background: rgba(56, 7, 89, 0.12); 
+    padding: 10px;
+    text-align: center;
+}
+
+.info
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+} */
+/* web mantra */
+/* footer end */
+@media  (max-width:900px) and  (min-width:800px){
+  .title
+  {
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/csimage.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    width: 100vw;
+    height: 70vh;
+  }
+  }
+@media  (max-width:800px) and  (min-width:700px){
+  .title
+  {
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/csimage.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    width: 100vw;
+    height: 65vh;
+  }
+  }
+@media  (max-width:700px) and  (min-width:600px){
+  .title
+  {
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/csimage.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    width: 100vw;
+    height: 60vh;
+  }
+  }
+
+@media  (max-width:600px) and  (min-width:500px){
+  .title
+  {
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/csimage.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    width: 100vw;
+    height: 70vh;
+  }
+  }
+
+@media  (max-width:500px) and  (min-width:400px){
+  .title
+  {
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/csimage.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    width: 100vw;
+    height: 80vh;
+  }
+  }
+
+
+ @media  (max-width:400px) and  (min-width:300px){
+.title
+{
+  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/csimage.jpg) ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  width: 100vw;
+  height: 75vh;
+}
+}
+
+@media (max-width:1200px) and (min-width:1100px) {
+.carousel {
+  height: 100%;
+  width:100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+}
+@media (max-width:1100px) and (min-width:1000px) {
+  .carousel {
+    height: 100%;
+    width:100%;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  }
+
+  @media (max-width:1000px) and (min-width:900px) {
+    .carousel {
+      height: 100%;
+      width:100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    }
+    @media (max-width:900px) and (min-width:800px) {
+      .carousel {
+        height: 100%;
+        width:100%;
+          margin-left: auto;
+          margin-right: auto;
+      }
+      }
+      @media (max-width:800px) and (min-width:700px) {
+        .carousel {
+          height: 100%;
+          width:100%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        }
+        @media (max-width:700px) and (min-width:600px) {
+          .carousel {
+            height: 100%;
+            width:100%;
+              margin-left: auto;
+              margin-right: auto;
+          }
+          .heading-products
+                    {
+                      font-size: 2/4rem;
+                    }
+          }
+          @media (max-width:600px) and (min-width:500px) {
+            .carousel {
+              height: 100%;
+          width:100%;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .heading-products
+                    {
+                      font-size: 2.3rem;
+                    }
+            }
+            @media (max-width:600px) and (min-width:500px) {
+              .carousel {
+                height: 80%;
+                width:100%;
+                  margin-left: auto;
+                  margin-right: auto;
+              }
+              .heading-products
+                    {
+                      font-size: 2.2rem;
+                    }
+              }
+              @media (max-width:500px) and (min-width:400px) {
+                .carousel {
+                  height: 60%;
+                  width:90%;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+                .heading-products
+                    {
+                      font-size: 2rem;
+                    }
+                }
+                @media (max-width:400px) and (min-width:300px) {
+                  .carousel {
+                      height: 60%;
+                      width:90%;
+                      margin-left: auto;
+                      margin-right: auto;
+                  }
+                  .heading-products
+                    {
+                      font-size: 1.8rem;
+                  }
+                }
+                  @media (max-width:300px) and (min-width:200px) {
+                    .carousel {
+                      height: 50%;
+                      width: 100%;
+                      margin-left: auto;
+                      margin-right: auto;
+                    }
+                    .heading-products
+                    {
+                      font-size: 1.5rem;
+                    }
+                    }
+
+
+
+
+
+
